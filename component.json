@@ -2,11 +2,11 @@
   "name": "to-camel-case",
   "repo": "ianstormtaylor/to-camel-case",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convert a non-camel-case string to a camel-case string.",
   "keywords": ["camel", "case", "camelcase", "string"],
   "dependencies": {
-    "ianstormtaylor/to-space-case": "0.0.1"
+    "ianstormtaylor/to-space-case": "0.1.0"
   },
   "development": {
     "component/assert": "*"
