@@ -9,19 +9,19 @@
 ## Example
 
 ```js
-var space = require('to-space-case');
+var camel = require('to-camel-case');
 
-space('space case'); // "spaceCase"
-space('snake_case'); // "snakeCase"
-space('dot.case');   // "dotCase"
-space('weird[case'); // "weirdCase"
+camel('space case'); // "spaceCase"
+camel('snake_case'); // "snakeCase"
+camel('dot.case');   // "dotCase"
+camel('weird[case'); // "weirdCase"
 ```
 
 ## API
 
-### toSpaceCase(string)
+### toCamelCase(string)
   
-  Returns the space-case variant of a `string`.
+  Returns the camel-case variant of a `string`.
 
 ## License
 
