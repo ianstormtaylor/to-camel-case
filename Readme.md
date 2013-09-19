@@ -11,10 +11,10 @@
 ```js
 var space = require('to-space-case');
 
-space('camelCase');  // "camel case"
-space('snake_case'); // "snake case"
-space('dot.case');   // "dot case"
-space('weird[case'); // "weird case"
+space('space case'); // "spaceCase"
+space('snake_case'); // "snakeCase"
+space('dot.case');   // "dotCase"
+space('weird[case'); // "weirdCase"
 ```
 
 ## API
