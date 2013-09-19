@@ -1,6 +1,6 @@
 # to-camel-case
 
-  Convert a non-camel-case string to a camel-case string.
+  Convert a string to a camel case.
 
 ## Installation
 
