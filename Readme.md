@@ -1,27 +1,27 @@
-# to-space-case
+# to-camel-case
 
-  Convert a non-space-case string to a space-case string.
+  Convert a non-camel-case string to a camel-case string.
 
 ## Installation
 
-    $ component install ianstormtaylor/to-space-case
+    $ component install ianstormtaylor/to-camel-case
 
 ## Example
 
 ```js
-var space = require('to-space-case');
+var camel = require('to-camel-case');
 
-space('camelCase');  // "camel case"
-space('snake_case'); // "snake case"
-space('dot.case');   // "dot case"
-space('weird[case'); // "weird case"
+camel('space case'); // "spaceCase"
+camel('snake_case'); // "snakeCase"
+camel('dot.case');   // "dotCase"
+camel('weird[case'); // "weirdCase"
 ```
 
 ## API
 
-### toSpaceCase(string)
+### toCamelCase(string)
   
-  Returns the space-case variant of a `string`.
+  Returns the camel-case variant of a `string`.
 
 ## License
 
