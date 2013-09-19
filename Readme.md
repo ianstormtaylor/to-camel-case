@@ -1,10 +1,10 @@
-# to-space-case
+# to-camel-case
 
-  Convert a non-space-case string to a space-case string.
+  Convert a non-camel-case string to a camel-case string.
 
 ## Installation
 
-    $ component install ianstormtaylor/to-space-case
+    $ component install ianstormtaylor/to-camel-case
 
 ## Example
 
