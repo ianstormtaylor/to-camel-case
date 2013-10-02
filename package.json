@@ -1,0 +1,11 @@
+{
+  "name": "to-camel-case",
+  "repository": "git://github.com/ianstormtaylor/to-camel-case.git",
+  "license": "MIT",
+  "version": "0.1.2",
+  "description": "Convert a string to camel case.",
+  "keywords": ["camel", "case", "camelcase", "string"],
+  "dependencies": {
+    "to-space-case": "0.1.2"
+  }
+}
