@@ -5,6 +5,9 @@
 ## Installation
 
     $ component install ianstormtaylor/to-camel-case
+    $ npm install to-camel-case
+
+_Big thanks to [@Nami-Doc](https://github.com/Nami-Doc) for graciously giving up the npm package name :)_
 
 ## Example
 

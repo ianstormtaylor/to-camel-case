@@ -1,3 +1,7 @@
+0.2.1 - October 3, 2013
+-----------------------
+* published to npm, thanks [@Nami-Doc](https://github.com/Nami-Doc)!
+
 0.1.2 - October 1, 2013
 -----------------------
 * updated `to-space-case`
