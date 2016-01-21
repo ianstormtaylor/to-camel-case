@@ -16,12 +16,12 @@ _Thanks to [@Nami-Doc](https://github.com/Nami-Doc) for graciously giving up the
 ## Example
 
 ```js
-var camel = require('to-camel-case');
+var toCamelCase = require('to-camel-case')
 
-camel('space case'); // "spaceCase"
-camel('snake_case'); // "snakeCase"
-camel('dot.case');   // "dotCase"
-camel('weird[case'); // "weirdCase"
+toCamelCase('space case')  // "spaceCase"
+toCamelCase('snake_case')  // "snakeCase"
+toCamelCase('dot.case')    // "dotCase"
+toCamelCase('weird[case')  // "weirdCase"
 ```
 
 
