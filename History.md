@@ -1,3 +1,11 @@
+
+1.0.0 - January 21, 2016
+------------------------
+* drop component support
+* cleanup readme
+* add travis ci
+* update coding style
+
 0.2.1 - October 3, 2013
 -----------------------
 * published to npm, thanks [@Nami-Doc](https://github.com/Nami-Doc)!

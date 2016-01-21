@@ -1,13 +1,11 @@
 
-var toSpace = require('to-space-case');
-
+var space = require('to-space-case')
 
 /**
- * Expose `toCamelCase`.
+ * Export.
  */
 
-module.exports = toCamelCase;
-
+module.exports = toCamelCase
 
 /**
  * Convert a `string` to camel case.
@@ -16,9 +14,8 @@ module.exports = toCamelCase;
  * @return {String}
  */
 
-
-function toCamelCase (string) {
-  return toSpace(string).replace(/\s(\w)/g, function (matches, letter) {
-    return letter.toUpperCase();
-  });
+function toCamelCase(string) {
+  return space(string).replace(/\s(\w)/g, function (matches, letter) {
+    return letter.toUpperCase()
+  })
 }

@@ -1,17 +1,11 @@
 
-build: node_modules components index.js
-	@component build --dev
-
-components: component.json
-	@component install --dev
-
-clean:
-	@rm -fr build node_modules components
-
+# Install node modules.
 node_modules: package.json
 	@npm install
 
-test: build
-	@open test/index.html
+# Run the tests.
+test:
+	@./node_modules/.bin/mocha
 
-.PHONY: clean test
+# Phony targets.
+.PHONY: test
