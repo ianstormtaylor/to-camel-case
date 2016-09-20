@@ -2,7 +2,7 @@
   "name": "to-camel-case",
   "version": "1.0.0",
   "description": "Convert a string to camel case.",
-  "repository": "git://github.com/ianstormtaylor/to-camel-case.git",
+  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "to-space-case": "^1.0.0"
@@ -15,5 +15,16 @@
     "case",
     "camelcase",
     "string"
-  ]
+  ],
+  "homepage": "https://github.com/ianstormtaylor/to-camel-case#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ianstormtaylor/to-camel-case.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianstormtaylor/to-camel-case/issues"
+  },
+  "scripts": {
+    "test": "mocha test"
+  }
 }
